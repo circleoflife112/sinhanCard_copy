@@ -1,0 +1,437 @@
+/**한글폰트**/
+
+@font-face {
+  font-family: "MICEGothic Bold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-01@1.0/MICEGothic Bold.woff2")
+    format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+/**노멀라이징**/
+
+body,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/****최상단 네비****/
+
+div > div {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 0;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+div > div > ul {
+  display: inline-block;
+}
+
+div > div > .ul-1 {
+  display: inline-block;
+  width: 200px;
+  text-align: left;
+}
+
+div > div > .ul-2 {
+  display: inline-block;
+  width: 580px;
+  text-align: left;
+}
+
+div > div > .ul-3 {
+  display: inline-block;
+  width: 400px;
+  text-align: right;
+}
+
+div > div > ul > li {
+  display: inline-block;
+}
+
+div > div > ul > li > a {
+  display: inline-block;
+}
+
+div > div > ul > li > a > span {
+  display: inline-block;
+  font-size: 14px;
+  padding: 10px;
+}
+
+/****메인 네비****/
+
+div > nav {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 0;
+}
+
+div > nav > ul {
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+div > nav > .ul-1 {
+  display: inline-block;
+  width: 300px;
+  text-align: left;
+}
+
+div > nav > .ul-2 {
+  display: inline-block;
+  width: 680px;
+  text-align: center;
+}
+
+div > nav > .ul-3 {
+  display: inline-block;
+  width: 200px;
+  text-align: right;
+}
+
+div > nav > ul > li {
+  display: inline-block;
+}
+
+div > nav > ul > li > a {
+  display: inline-block;
+}
+
+div > nav > ul > li > a > span {
+  display: inline-block;
+  font-size: 20px;
+  color: #222222;
+  padding: 15px 15px;
+  font-family: "MICEGothic Bold";
+}
+
+div > nav > .ul-1 > li > a > span > img {
+  display: inline-block;
+  width: 120px;
+}
+
+/****섹션1****/
+
+div > .section-1 {
+  background-color: #f4f7fc;
+  padding: 70px 0;
+}
+
+/**검색바**/
+
+div > .section-1 > div {
+  width: 760px;
+  height: 60px;
+  border: 2px solid blue;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+div > .section-1 > div > .textbox1 {
+  display: inline-block;
+  width: 690px;
+  line-height: 20px;
+  font-size: 20px;
+  text-align: left;
+  padding: 0 10px;
+  font-weight: semi-condensed;
+  color: #a1a1a1;
+}
+
+div > .section-1 > div > span {
+  font-size: 20px;
+}
+
+/**카드바로가기**/
+
+div > .section-1 > ul {
+  width: 1160px;
+  margin: 0 auto;
+  padding: 10px 0;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+  font-size: 0;
+}
+
+div > .section-1 > ul > li {
+  display: inline-block;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+div > .section-1 > ul > li:hover {
+  display: inline-block;
+  margin-right: 10px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 20px #d9d9d9;
+}
+
+div > .section-1 > ul > li > a {
+  display: inline-block;
+}
+
+div > .section-1 > ul > li > a > span {
+  display: block;
+  width: 130px;
+  font-family: "MICEGothic Bold";
+  font-size: 15px;
+  padding: 10px 0;
+}
+
+div > .section-1 > ul > li > a > span > img {
+  display: inline-block;
+  width: 40px;
+}
+
+/****섹션2****/
+
+div > .section-2 {
+  display: block;
+  margin: 0 auto;
+  margin-top: 60px;
+  text-align: center;
+  width: 1200px;
+}
+
+div > .section-2 > section {
+  display: inline-block;
+  width: 340px;
+  height: 250px;
+  border-radius: 10px;
+  margin: 0 10px;
+  color: #ffffff;
+  padding-left: 30px;
+  font-family: "MICEGothic Bold";
+  font-size: 20px;
+  text-align: left;
+}
+
+div > .section-2 > .event-1 {
+  display: inline-block;
+  background-color: skyblue;
+}
+
+div > .section-2 > .event-2 {
+  display: inline-block;
+  background-color: purple;
+}
+
+div > .section-2 > .event-3 {
+  display: inline-block;
+  background-color: blue;
+}
+
+.line-1 {
+  margin: 0 auto;
+  background-color: rgba(30, 30, 30, 0.1);
+  margin-top: 70px;
+  width: 1200px;
+  height: 0.5px;
+  margin-bottom: 40px;
+}
+
+/**섹션3**/
+
+.card > nav {
+  margin: 0 auto;
+  width: 1200px;
+  padding: 0 20px;
+}
+
+.card h2 {
+  display: inline-block;
+  font-family: "MICEGothic Bold";
+}
+
+.card span {
+  padding-left: 30px;
+}
+
+.card h2:hover {
+  text-decoration: underline;
+}
+
+/**카드 이미지 시작**/
+
+.card > section {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 0;
+}
+
+.card-box > ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10px;
+}
+
+.card-box > ul > li {
+  width: 175px;
+  height: 270px;
+}
+
+.card-box > ul div {
+  height: 100%;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+}
+
+.card-img-box {
+  background-image: url(https://ifh.cc/g/4YnM6j.png);
+}
+
+.card-img-box2 {
+  background-image: url(https://ifh.cc/g/Lcj9ac.gif);
+}
+
+.card-img-box3 {
+  background-image: url(https://ifh.cc/g/SgqBAx.png);
+}
+
+.card-img-box4 {
+  background-image: url(https://ifh.cc/g/WHyspL.png);
+}
+
+.card-img-box5 {
+  background-image: url(https://ifh.cc/g/tzyqRB.gif);
+}
+
+/**카드 버튼 시작**/
+
+.card-btn-section {
+  width: 1200px;
+  height: 80px;
+  padding: 60px 20px;
+  margin: 0 auto;
+}
+
+.card-btn-section > .card-btn1,
+.card-btn-section > .card-btn2 {
+  width: 580px;
+  height: 100%;
+  background-color: #f1f1f1;
+  border-radius: 20px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.card-btn-section > .card-btn2 {
+  margin-right: 0px;
+  margin-left: 10px;
+}
+
+.card-btn-section > .card-btn1 > a,
+.card-btn-section > .card-btn2 > a {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.card-btn1 > a > h3,
+.card-btn2 > a > h3 {
+  flex-grow: 1;
+  font-size: 18px;
+}
+
+.card-btn-icon1 {
+  width: 42px;
+  height: 42px;
+  background-image: url(https://www.shinhancard.com/pconts/images/shcard/icon/icon-150-type2-31.png);
+  background-size: cover;
+  box-sizing: border-box;
+}
+
+.card-btn-icon2 {
+  width: 42px;
+  height: 42px;
+  background-size: cover;
+  box-sizing: border-box;
+  background-image: url(https://www.shinhancard.com/pconts/images/shcard/icon/icon-150-type2-21.png);
+}
+
+.card-btn1 .card-btn-text {
+  flex-grow: 2;
+}
+
+/**섹션4 금융**/
+
+.section-4 {
+  width: 1200px;
+  padding: 20px 10px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.section-4 > section {
+  width: 250px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.section-4 div {
+  margin: 0 auto;
+  width: 42px;
+  height: 42px;
+  background-size: cover;
+  box-sizing: border-box;
+}
+
+.section-4 > .finance-1 > div {
+  background-image: url(https://www.shinhancard.com/pconts/images/shcard/icon/icon-150-type2-17.png);
+}
+
+.section-4 > .finance-2 > div {
+  background-image: url(https://www.shinhancard.com/pconts/images/shcard/icon/icon-150-type2-17.png);
+}
+
+.section-4 > .finance-3 > div {
+  background-image: url(https://www.shinhancard.com/pconts/images/shcard/icon/icon-150-type2-17.png);
+}
+
+.section-4 > .finance-4 > div {
+  background-image: url(https://www.shinhancard.com/pconts/images/shcard/icon/icon-150-type2-17.png);
+}
+
+/**섹션4 종료**/
+
+/**섹션5 공지 시작**/
+
+.notice {
+  width: 1200px;
+  padding: 20px 20px;
+  margin: 0 auto;
+  border-top: 1px solid #f1f1f1;
+  display: flex;
+  justify-content: space-around;
+}
+
+.notice > section {
+  flex-grow: 1;
+  padding: 10px 20px;
+}
+
+.notice_1 {
+  border-right: 1px solid #f1f1f1;
+}
