@@ -283,35 +283,42 @@ div > .section-2 > .event-3 {
 }
 
 .card-box > ul > li {
-  width: 175px;
-  height: 270px;
+  width: 100%;
+  height: 100%;
 }
 
 .card-box > ul div {
   height: 100%;
+  width: 100%;
   border-radius: 10px;
-  background-size: cover;
-  background-position: center;
+  object-fit: contain;
 }
 
-.card-img-box {
-  background-image: url(https://ifh.cc/g/4YnM6j.png);
+/* .card-img-box {
+  background-image: url(https://ifh.cc/g/oFyLb7.gif);
+  rotate: 90deg;
 }
 
 .card-img-box2 {
-  background-image: url(https://ifh.cc/g/Lcj9ac.gif);
+  background-image: url(https://ifh.cc/g/cQAYg0.gif);
 }
 
 .card-img-box3 {
-  background-image: url(https://ifh.cc/g/SgqBAx.png);
+  background-image: url(https://ifh.cc/g/BPdN8O.gif);
 }
 
 .card-img-box4 {
-  background-image: url(https://ifh.cc/g/WHyspL.png);
+  background-image: url(https://ifh.cc/g/mMCcof.gif);
 }
 
 .card-img-box5 {
-  background-image: url(https://ifh.cc/g/tzyqRB.gif);
+  background-image: url(https://ifh.cc/g/gAVRf0.gif);
+} */
+
+.card-box > ul div > img {
+  width: 175px;
+  height: 270px;
+  object-fit: fill;
 }
 
 /**카드 버튼 시작**/
@@ -358,6 +365,7 @@ div > .section-2 > .event-3 {
   background-image: url(https://www.shinhancard.com/pconts/images/shcard/icon/icon-150-type2-31.png);
   background-size: cover;
   box-sizing: border-box;
+  margin-left: 1rem;
 }
 
 .card-btn-icon2 {
@@ -366,6 +374,7 @@ div > .section-2 > .event-3 {
   background-size: cover;
   box-sizing: border-box;
   background-image: url(https://www.shinhancard.com/pconts/images/shcard/icon/icon-150-type2-21.png);
+  margin-left: 1rem;
 }
 
 .card-btn1 .card-btn-text {
